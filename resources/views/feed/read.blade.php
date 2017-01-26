@@ -2,8 +2,7 @@
 
 @section('content')
     <div class="header" style="margin-left: 20px;">
-        <!--h1><a href=" $permalink "> $title </a></h1-->
-        <h1>Notícias do RSS do Google</h1>
+        <h1><a href="{{ $permalink  }} "> {{ $title }} </a></h1>
     </div>
     <div class="col-md-1"></div>
     <div class="col-md-10">
