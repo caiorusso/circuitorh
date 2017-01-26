@@ -8,7 +8,7 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    Ler noticias do Google
+                    <a href="{{ url('/reader') }}">Ler Notícias</a>
                 </div>
             </div>
         </div>
